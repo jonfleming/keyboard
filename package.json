@@ -1,0 +1,16 @@
+{
+  "name": "key-monitor",
+  "version": "1.0.0",
+  "description": "Prints global key press/release events with modifiers",
+  "type": "commonjs",
+  "main": "keys.js",
+  "scripts": {
+    "start": "node keys.js"
+  },
+  "dependencies": {
+    "uiohook-napi": "^1.5.5"
+  },
+  "allowScripts": {
+    "uiohook-napi@1.5.5": true
+  }
+}
